@@ -1,0 +1,65 @@
+html{
+    width:auto;
+    min-width: 360px;
+    height: auto;
+    scroll-behavior: smooth;
+}
+.shop-intro h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    color: #ffffff;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+    background-color: #14207d;
+    
+
+}
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap:10px;
+}
+.map img{
+    height: 400px;
+    width: 400px;
+    
+}
+iframe{
+    max-height: 400px;
+    min-height: 100px;
+    max-width: 500px;
+    min-width: 200px;
+}
+.inform{
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size:medium ;
+    background-color: #14207d;
+    border-radius: 6px;
+}
+.inform h1{
+    background-color: #fff;
+    border-radius: 6px;
+    color: #1D2877;;
+    padding-left: 10px;
+}
+.place{
+    background-color: #1d287700;
+    padding: 0px;
+}
+@media(max-width: 768px){
+    .map img{
+        height: 200px;
+        width: 200px;
+        
+    }
+    .map iframe{
+        height: 200px;
+        width: 200px;
+    }
+}
